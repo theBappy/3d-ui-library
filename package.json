@@ -1,0 +1,27 @@
+{
+  "name": "3d-ui-library",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A powerful 3D UI component library for modern web apps.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theBappy/3d-ui-library.git",
+  },
+  "bugs": {
+    "url": "https://github.com/theBappy/3d-ui-library/issues"
+  },
+  "workspaces": ["packages/*", "website"],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "keywords": ["3D", "UI", "React", "Three.js", "Animations", "GSAP", "Framer"],
+  "author": "theBappy",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.3",
+  "devDependencies": {
+    "turbo": "^2.4.4"
+  }
+}
